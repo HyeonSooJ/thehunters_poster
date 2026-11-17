@@ -60,7 +60,7 @@ function draw(st){
   for(let v=0;v<=A;v+=P.step){const y=py(v);x.strokeStyle=v===0?'#555':'#262626';x.lineWidth=1;x.beginPath();x.moveTo(PX0,y);x.lineTo(PX1+4,y);x.stroke();font(7,true);x.fillStyle='#777';x.textAlign='right';x.fillText(v+'%',PX0-4,y+2.5);}
   x.strokeStyle='#555';x.beginPath();x.moveTo(PX0,BB-30);x.lineTo(PX1+4,BB-30);x.stroke();
   font(6.5,true);
-  for(let i=0;i<=NP;i++){const X=px(i);x.fillStyle=(i<=1)?'#fff':i===NP?RED:'#888';x.textAlign=i===0?'left':i===NP?'right':'center';x.fillText(dates[i],X+(i===0?-4:i===NP?6:0),BB-14);}
+  for(let i=0;i<=NP;i++){const X=px(i);x.fillStyle=(i<=1)?'#fff':i===NP?RED:'#888';x.textAlign=i===0?'left':i===NP?'right':'center';x.fillText(dates[i],X+(i===0?-4:i===NP?10:0),BB-14);}
   const seg=st.seg,sp=st.segP;
   x.strokeStyle=CH;x.lineWidth=2.5;x.lineJoin='round';x.beginPath();x.moveTo(px(0),py(0));
   for(let i=1;i<=seg;i++)x.lineTo(px(i),py(vals[i]));
