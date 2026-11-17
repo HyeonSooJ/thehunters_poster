@@ -34,7 +34,7 @@
   - "바이낸스 코인 - " + 빨강 "미국 대형주, KORU(KOSPI 3배 레버리지)"
 - 누적수익률 라인차트(빨강, 테두리 #666, 그리드 #262626, 축 0~300% 50% 단위):
   - 10.3 0% → 10.30 +196.2% → 11월 매매건별 → 11.16 **+297.85%**(빨강 11px 900).
-  - 데이터: `scripts/team2_gif_params.json`의 `vals`/`dates`.
+  - 데이터: `team2_gif_params.json`의 `vals`/`dates`.
 - 구분선(흰 2px) 후 본문 3줄(13.5px bold, 가운데):
   "회장님의 순수 이타심으로 만든 자산운용2팀, / 가이드에 따라 **차원이 다른 수익률**(빨강)을 목표로 / 바이낸스 투자를 진행합니다."
 - "― 지원 방법 ―"(10px #888).
@@ -57,10 +57,10 @@
 8. 20초 정지 후 반복합니다.
 
 - GIF 크기는 481×837(1.3배)입니다. PC 카카오톡에서 한 화면에 보이도록 맞춘 크기입니다.
-- 참고 구현: `scripts/team2_gif_generator.js`(캔버스 그리기 + 자체 GIF/LZW 인코더).
+- 참고 구현: `team2_gif_generator.js`(캔버스 그리기 + 자체 GIF/LZW 인코더).
 
 ## Data
-- `data/team_records.xlsx`
+- `team_records.xlsx`
   - 1팀 시트: `자산운용1팀(2026)`, `2026년 9월`, `2026년 10월`
   - 2팀 시트: `2026년 11월`. 누적은 단순 합산(복리 아님)이고, 10.3을 0%로 시작합니다.
 - 날짜 표기는 `MM.DD`, 포스터 차트는 `M.D` 형식입니다.
@@ -75,11 +75,12 @@
 - 모서리: 0(모두 직각). 그림자: 없음.
 
 ## Assets
-- `assets/logo.png` — 동아리 로고(검정). 1B에서는 색을 반전해 사용합니다.
+- `logo.png` — 동아리 로고(검정). 1B에서는 색을 반전해 사용합니다.
 
-## Files
-- `posters.dc.html` — 1A·1B 디자인 원본(+ 이전 시안들). `support.js`는 실행용 런타임입니다.
-- `scripts/` — 1B GIF 생성 코드와 파라미터.
-- `exports/` — 최신 GIF와 11월 종목별 막대그림.
-- `data/` — 최신 엑셀.
-- `screenshots/` — 1A·1B 최종 화면 캡처(3x). 재현 결과 비교 기준.
+## Files (repo root, flat)
+- `posters.dc.html` + `support.js` — 1A·1B 디자인 원본. 브라우저로 열면 바로 보임.
+- `logo.png` — 로고.
+- `team2_gif_generator.js`, `team2_gif_params.json` — 1B GIF 생성.
+- `team2_poster.gif`, `team2_nov_bars.png` — 최신 결과물.
+- `team_records.xlsx` — 최신 엑셀.
+- `1A_team1_poster.png`, `1B_team2_poster.png` — 최종 화면 캡처.
