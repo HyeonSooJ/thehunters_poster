@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><meta name="design_doc_mode" content="canvas">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Gowun+Dodum&family=Black+Han+Sans&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#f0eee9;font-family:'Gowun Dodum',system-ui,sans-serif}a{color:#2a78d6}a:hover{color:#1a5cab}.dv-turn{padding:40px 44px 32px;border-bottom:1px solid rgba(0,0,0,.08);scroll-margin-top:16px}.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 20px}.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;border-radius:4px;text-decoration:none}.dv-tname{font:600 13px/1.2 system-ui,sans-serif;color:#1a1a1a}.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.08);color:#1a1a1a;border-radius:5px;text-decoration:none}.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 11px/1.3 system-ui,sans-serif;color:rgba(0,0,0,.55)}.dv-card{max-width:100%;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.06);overflow:hidden}.dv-opt:target .dv-oid{background:#2a78d6;color:#fff}.dv-next{margin:22px 0 0;font:12px/1.5 system-ui,sans-serif;color:rgba(0,0,0,.5)}
+.wf{font-family:'HY견고딕','HYGothic-Extra','Black Han Sans',sans-serif;color:#222;display:flex;flex-direction:column}.wf h3,.wf h2,.wf p{margin:0;font-weight:400}.box{border:1.5px solid #333;border-radius:3px;background:#fff}.dash{border:1.5px dashed #aaa;border-radius:3px;background:#fafafa;display:flex;align-items:center;justify-content:center;color:#999;font-family:ui-monospace,monospace;font-size:9px;text-align:center}.tag{font-family:ui-monospace,monospace;font-size:9px;color:#999;letter-spacing:.05em}.up{color:#c0392b}.dn{color:#2a5db0}.note{font-size:13px;color:#666;line-height:1.3}</style></helmet>
+
+<section class="dv-turn" id="t1">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">한 장 리포트 · 신입 모집용 · 반전 서사 — 4가지 방향</span></div>
+<div class="dv-opts">
+
+<div class="dv-opt" id="1a"><div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a>포스터형 — 숫자가 주인공</div>
+<div class="dv-card wf" style="width:370px;height:600px;padding:18px;gap:8px;border:2.5px solid #111;border-radius:0">
+  <div style="display:flex;align-items:center;justify-content:flex-start;gap:8px"><img src="uploads/pasted-1786768762873-0.png" style="width:44px;height:44px;object-fit:contain" alt="thehunters 로고"><span style="font-size:17px;font-weight:700;letter-spacing:.06em;color:#111;font-family:'HY견고딕','HYGothic-Extra','Black Han Sans',sans-serif">THEHUNTERS</span></div>
+  <div style="text-align:left">
+    <h2 style="font-size:30px">더헌터스 자산운용1팀</h2>
+  </div>
+  <div style="display:flex;align-items:center;justify-content:center;gap:10px">
+    <p style="font-weight:700;color:#222;font-size:14px;margin:0">설립 7개월 누적수익률</p>
+    <h2 style="font-size:40px;line-height:1;font-weight:700" class="up">+42.8%</h2>
+  </div>
+  <div style="display:flex;align-items:center;gap:6px;white-space:nowrap">
+    <span style="background:#111;color:#fff;font-size:10px;font-weight:900;padding:5px 6px;line-height:1.2;flex:none">투자 방식</span>
+    <div style="display:flex;flex-direction:column;gap:1px;font-size:9.5px;line-height:1.35;font-weight:900;color:#111;-webkit-text-stroke:0.3px #111;min-width:0">
+      <span>누구나 접근이 쉽고 거래량 많은 종목으로 KOSPI 방향 예측</span>
+      <span>국내주식 - <span style="color:#c0392b;-webkit-text-stroke:0.3px #c0392b">삼성전자, KODEX 인버스</span></span>
+    </div>
+  </div>
+  <div class="box" style="height:250px;position:relative;padding:8px;flex:none">
+    <svg width="100%" height="100%" viewBox="-22 -2 350 152" preserveAspectRatio="none">
+      <line x1="0" y1="20" x2="320" y2="20" stroke="#eee" stroke-width="1"></line>
+      <line x1="0" y1="36" x2="320" y2="36" stroke="#eee" stroke-width="1"></line>
+      <line x1="0" y1="52" x2="320" y2="52" stroke="#eee" stroke-width="1"></line>
+      <line x1="0" y1="68" x2="320" y2="68" stroke="#eee" stroke-width="1"></line>
+      <line x1="0" y1="84" x2="320" y2="84" stroke="#eee" stroke-width="1"></line>
+      <line x1="0" y1="100" x2="320" y2="100" stroke="#ddd" stroke-width="1"></line>
+      <line x1="0" y1="116" x2="320" y2="116" stroke="#eee" stroke-width="1"></line>
+      <g font-size="5.5" font-weight="700" fill="#bbb" font-family="ui-monospace,monospace" text-anchor="end">
+        <text x="-3" y="22">50%</text>
+        <text x="-3" y="38">40%</text>
+        <text x="-3" y="54">30%</text>
+        <text x="-3" y="70">20%</text>
+        <text x="-3" y="86">10%</text>
+        <text x="-3" y="102">0%</text>
+        <text x="-3" y="118">-10%</text>
+      </g>
+      <rect x="70" y="4" width="256" height="132" fill="#c0392b" opacity="0.06"></rect>
+      <polyline points="0,106.1 20,105 40,120.5 60,68.5 80,52 100,34.9 120,31.5 140,31.2 160,19 180,19 200,13.4 220,16.3 240,24.6 260,34.2 280,25.3 300,26.6 320,31.5" fill="none" stroke="#c0392b" stroke-width="2.5"></polyline>
+      <circle cx="0" cy="106.1" r="2.2" fill="#333"></circle><circle cx="20" cy="105" r="2.2" fill="#333"></circle><circle cx="40" cy="120.5" r="2.2" fill="#333"></circle><circle cx="60" cy="68.5" r="2.2" fill="#333"></circle><circle cx="80" cy="52" r="2.8" fill="#c0392b"></circle><circle cx="100" cy="34.9" r="2.2" fill="#333"></circle><circle cx="120" cy="31.5" r="2.2" fill="#333"></circle><circle cx="140" cy="31.2" r="2.2" fill="#333"></circle><circle cx="160" cy="19" r="2.2" fill="#333"></circle><circle cx="180" cy="19" r="2.2" fill="#333"></circle><circle cx="200" cy="13.4" r="2.2" fill="#333"></circle><circle cx="220" cy="16.3" r="2.2" fill="#333"></circle><circle cx="240" cy="24.6" r="2.2" fill="#333"></circle><circle cx="260" cy="34.2" r="2.2" fill="#333"></circle><circle cx="280" cy="25.3" r="2.2" fill="#333"></circle><circle cx="300" cy="26.6" r="2.2" fill="#333"></circle><circle cx="320" cy="31.5" r="3" fill="#c0392b"></circle>
+      <g font-size="5.5" fill="#555" font-family="ui-monospace,monospace" text-anchor="middle">
+        <text x="8" y="116">-3.8%</text>
+        <text x="22" y="99">-3.1%</text>
+        <text x="44" y="131" fill="#2a5db0" font-size="9" font-weight="700">-12.8%</text>
+        <text x="52" y="64">+19.7%</text>
+        <text x="76" y="46" fill="#c0392b" font-size="8" font-weight="700">+30%</text>
+        <text x="100" y="29">+40.7%</text>
+        <text x="120" y="25.5">+42.8%</text>
+        <text x="140" y="39">+43.0%</text>
+        <text x="160" y="13">+50.6%</text>
+        <text x="180" y="27">+50.6%</text>
+        <text x="200" y="7.5" font-weight="700" fill="#222">+54.1%</text>
+        <text x="220" y="10.5">+52.3%</text>
+        <text x="240" y="32.5">+47.1%</text>
+        <text x="260" y="42">+41.1%</text>
+        <text x="280" y="19.5">+46.7%</text>
+        <text x="300" y="21">+45.9%</text>
+        <text x="320" y="44" text-anchor="end" fill="#c0392b" font-size="11" font-weight="900">+42.8%</text>
+      </g>
+      <line x1="0" y1="136" x2="320" y2="136" stroke="#ccc" stroke-width="1"></line>
+      <g font-size="6.5" font-weight="700" fill="#999" font-family="ui-monospace,monospace" text-anchor="middle">
+        <text x="0" y="146" text-anchor="start">4월</text>
+        <text x="20" y="146">5월</text>
+        <text x="40" y="146">6월</text>
+        <text x="60" y="146">7월</text>
+        <text x="80" y="146">8월</text>
+        <text x="100" y="146">9월</text>
+        <g font-size="5.2"><text x="120" y="146">10.1</text><text x="140" y="146">10.6</text><text x="160" y="146">10.13</text><text x="180" y="146">10.13</text><text x="200" y="146">10.16</text><text x="220" y="146">10.21</text><text x="240" y="146">10.23</text><text x="260" y="146">10.27</text><text x="280" y="146">10.30</text><text x="300" y="146">11.4</text><text x="320" y="146" text-anchor="end">11.9</text></g>
+      </g>
+    </svg>
+  </div>
+  <div style="position:relative;padding-top:2px">
+    <div style="position:absolute;left:0;right:0;top:29px;height:2px;background:#333"></div>
+    <div style="display:flex">
+      <div style="flex:1;text-align:center;display:flex;flex-direction:column;align-items:center;gap:2px;padding:0 4px"><h3 class="dn" style="font-size:13px;height:18px">4~6월</h3><div style="width:9px;height:9px;border-radius:50%;background:#2a5db0;border:2px solid #fff;position:relative;z-index:1"></div><p class="note" style="font-size:9.5px;line-height:1.35;word-break:keep-all">자산운용팀 설립 및 누적수익률 <span class="dn">-12.8%</span> 기록</p></div>
+      <div style="flex:1;text-align:center;display:flex;flex-direction:column;align-items:center;gap:2px;padding:0 4px"><h3 style="font-size:13px;height:18px;color:#d1685a">7~8월</h3><div style="width:9px;height:9px;border-radius:50%;background:#d1685a;border:2px solid #fff;position:relative;z-index:1"></div><p class="note" style="font-size:9.5px;line-height:1.35;word-break:keep-all">KOSPI 변동성 최대치에서 누적수익률 <span class="up">30%</span> 달성</p></div>
+      <div style="flex:1.3;text-align:center;display:flex;flex-direction:column;align-items:center;gap:2px;padding:0 4px"><h3 style="font-size:13px;height:18px;color:#9e2418">9~10월</h3><div style="width:9px;height:9px;border-radius:50%;background:#9e2418;border:2px solid #fff;position:relative;z-index:1"></div><p class="note" style="font-size:9.5px;line-height:1.35;word-break:keep-all">KOSPI 횡보 및 최근 심각한 하락장에서 지수 방향을 예측하는 투자로 누적수익률 <span class="up">50%</span> 돌파</p></div>
+    </div>
+  </div>
+  <p style="text-align:center;font-size:13px;font-weight:700;margin-top:2px;line-height:1.35">"어떠한 상황에서도 돈을 버는 것이 우리의 원칙입니다.<br>끝까지 포기하지 않으면 반드시 결과는 따라옵니다."</p>
+</div></div>
+
+<div class="dv-opt" id="1b"><div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a>포스터형 — 자산운용2팀</div>
+<div class="dv-card wf" style="width:370px;padding:18px;gap:10px;border:2.5px solid #fff;outline:2px solid #000;border-radius:0;background:#000;color:#fff">
+  <div style="display:flex;align-items:center;justify-content:flex-start;gap:8px"><img src="uploads/pasted-1786768762873-0.png" style="width:44px;height:44px;object-fit:contain;filter:invert(1)" alt="thehunters 로고"><span style="font-size:17px;font-weight:700;letter-spacing:.06em;color:#fff;font-family:'HY견고딕','HYGothic-Extra','Black Han Sans',sans-serif">THEHUNTERS</span></div>
+  <div style="text-align:left">
+    <h2 style="font-size:30px;color:#fff">더헌터스 자산운용2팀</h2>
+  </div>
+  <div style="display:flex;align-items:center;justify-content:center;gap:10px">
+    <p style="font-weight:700;color:#eee;font-size:14px;margin:0;line-height:1.35">설립 2개월 누적 수익률</p>
+    <h2 style="font-size:40px;line-height:1;font-weight:700;color:#e74c3c">+297%</h2>
+  </div>
+  <div style="display:flex;align-items:center;gap:6px;white-space:nowrap">
+    <span style="background:#fff;color:#000;font-size:10px;font-weight:900;padding:5px 6px;line-height:1.2;flex:none">투자 방식</span>
+    <div style="display:flex;flex-direction:column;gap:1px;font-size:8.6px;line-height:1.35;font-weight:900;color:#fff;-webkit-text-stroke:0.3px #fff;min-width:0">
+      <span>시가총액 높은 미국 대형주, 거래량 많은 종목으로 Long/Short 방향 예측</span>
+      <span>바이낸스 코인 - <span style="color:#e74c3c;-webkit-text-stroke:0.3px #e74c3c">미국 대형주, KORU(KOSPI 3배 레버리지)</span></span>
+    </div>
+  </div>
+  <div class="box" style="height:250px;position:relative;padding:8px;flex:none;background:#000;border:1.5px solid #666">
+    <svg width="100%" height="100%" viewBox="-22 -2 350 152" preserveAspectRatio="none">
+      <line x1="0" y1="10" x2="320" y2="10" stroke="#262626" stroke-width="1"></line>
+      <line x1="0" y1="29.7" x2="320" y2="29.7" stroke="#262626" stroke-width="1"></line>
+      <line x1="0" y1="49.3" x2="320" y2="49.3" stroke="#262626" stroke-width="1"></line>
+      <line x1="0" y1="69" x2="320" y2="69" stroke="#262626" stroke-width="1"></line>
+      <line x1="0" y1="88.7" x2="320" y2="88.7" stroke="#262626" stroke-width="1"></line>
+      <line x1="0" y1="108.3" x2="320" y2="108.3" stroke="#262626" stroke-width="1"></line>
+      <line x1="0" y1="128" x2="320" y2="128" stroke="#555" stroke-width="1"></line>
+      <g font-size="5.5" font-weight="700" fill="#888" font-family="ui-monospace,monospace" text-anchor="end">
+        <text x="-3" y="12">300%</text><text x="-3" y="31.7">250%</text><text x="-3" y="51.3">200%</text><text x="-3" y="71">150%</text><text x="-3" y="90.7">100%</text><text x="-3" y="110.3">50%</text><text x="-3" y="130">0%</text>
+      </g>
+      <polyline points="0,128 22.9,50.8 45.7,45.2 68.6,33.6 91.4,36.2 114.3,28.5 137.1,27.9 160,22.2 182.9,38.3 205.7,34 228.6,29.6 251.4,32.7 274.3,28.8 297.1,15.7 320,10.8" fill="none" stroke="#e74c3c" stroke-width="2.5"></polyline>
+      <circle cx="0" cy="128" r="3" fill="#fff"></circle><circle cx="22.9" cy="50.8" r="3" fill="#fff"></circle><circle cx="45.7" cy="45.2" r="2.4" fill="#fff"></circle><circle cx="68.6" cy="33.6" r="2.4" fill="#fff"></circle><circle cx="91.4" cy="36.2" r="2.4" fill="#fff"></circle><circle cx="114.3" cy="28.5" r="2.4" fill="#fff"></circle><circle cx="137.1" cy="27.9" r="2.4" fill="#fff"></circle><circle cx="160" cy="22.2" r="2.4" fill="#fff"></circle><circle cx="182.9" cy="38.3" r="2.4" fill="#fff"></circle><circle cx="205.7" cy="34" r="2.4" fill="#fff"></circle><circle cx="228.6" cy="29.6" r="2.4" fill="#fff"></circle><circle cx="251.4" cy="32.7" r="2.4" fill="#fff"></circle><circle cx="274.3" cy="28.8" r="2.4" fill="#fff"></circle><circle cx="297.1" cy="15.7" r="2.4" fill="#fff"></circle><circle cx="320" cy="10.8" r="3" fill="#e74c3c"></circle>
+      <g font-size="5.6" fill="#bbb" font-family="ui-monospace,monospace" text-anchor="middle">
+        <text x="27.3" y="60" text-anchor="start" font-size="7" font-weight="700" fill="#fff">+196.2%</text>
+        <text x="45.7" y="39.2">+210.5%</text><text x="68.6" y="27.6">+240.1%</text><text x="91.4" y="46.2">+233.3%</text><text x="114.3" y="22.5">+252.9%</text><text x="137.1" y="37.9">+254.5%</text><text x="160" y="16.2">+268.9%</text><text x="182.9" y="48.3">+228.1%</text><text x="205.7" y="28">+239.0%</text><text x="228.6" y="23.6">+250.1%</text><text x="251.4" y="42.7">+242.4%</text><text x="274.3" y="38.8">+252.2%</text><text x="297.1" y="25.7">+285.5%</text>
+        <text x="314" y="7" text-anchor="end" fill="#e74c3c" font-size="11" font-weight="900">+297.85%</text>
+      </g>
+      <line x1="0" y1="136" x2="320" y2="136" stroke="#555" stroke-width="1"></line>
+      <g font-size="6.5" font-weight="700" fill="#888" font-family="ui-monospace,monospace" text-anchor="middle">
+        <text x="0" y="146" text-anchor="start" fill="#fff">10.3</text><text x="22.9" y="146" fill="#fff">10.30</text><text x="45.7" y="146">11.2</text><text x="68.6" y="146">11.3</text><text x="91.4" y="146">11.4</text><text x="114.3" y="146">11.4</text><text x="137.1" y="146">11.5</text><text x="160" y="146">11.5</text><text x="182.9" y="146">11.6</text><text x="205.7" y="146">11.9</text><text x="228.6" y="146">11.9</text><text x="251.4" y="146">11.10</text><text x="274.3" y="146">11.10</text><text x="297.1" y="146">11.14</text><text x="326" y="146" text-anchor="end" fill="#e74c3c">11.16</text>
+      </g>
+    </svg>
+  </div>
+  <div style="border-top:2px solid #fff;padding-top:12px;display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center">
+    <p style="font-size:13.5px;font-weight:700;margin:0;line-height:1.5;word-break:keep-all;color:#fff">회장님의 순수 이타심으로 만든 자산운용2팀,<br>가이드에 따라 <span style="color:#e74c3c">차원이 다른 수익률</span>을 목표로<br>바이낸스 투자를 진행합니다.</p>
+    <span style="font-size:10px;font-weight:700;letter-spacing:.2em;color:#888">― 지원 방법 ―</span>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%">
+      <div style="background:#000;color:#fff;border:2px solid #fff;padding:8px;display:flex;flex-direction:column;align-items:center;gap:4px">
+        <span style="font-size:9px;font-weight:700;letter-spacing:.18em;color:#F0B90B">AUTO</span>
+        <span style="font-size:15px;font-weight:700">운영진</span>
+        <span style="font-size:10.5px;color:#ccc">자동 선발</span>
+      </div>
+      <div style="background:#fff;color:#000;border:3px solid #e74c3c;padding:7px;display:flex;flex-direction:column;align-items:center;gap:4px">
+        <span style="font-size:9px;font-weight:700;letter-spacing:.18em;color:#c0392b">SELECT</span>
+        <span style="font-size:15px;font-weight:700;word-break:keep-all">기여도 우수 부원</span>
+        <span style="font-size:10.5px;color:#333">회장님 선발</span>
+      </div>
+    </div>
+    <p style="font-size:12.5px;font-weight:700;margin:0;color:#fff;word-break:keep-all">더헌터스는 기여하면 반드시 혜택이 주어집니다</p>
+  </div>
+</div></div>
+
+<div class="dv-opt" id="1e"><div class="dv-olabel"><a class="dv-oid" href="#1e">1e</a>스토리 세로형 — 반전 서사 순서대로</div>
+<div class="dv-card wf" style="width:370px;height:930px;padding:22px;gap:10px">
+  <div style="display:flex;justify-content:space-between;align-items:center"><span style="display:flex;align-items:center;gap:6px"><img src="uploads/pasted-1786768762873-0.png" style="width:36px;height:36px;object-fit:contain" alt="thehunters 로고"><span style="font-size:14px;font-weight:700;letter-spacing:.06em;color:#111;font-family:'HY견고딕','HYGothic-Extra','Black Han Sans',sans-serif">THEHUNTERS</span></span><span class="tag">RECRUITING</span></div>
+  <h2 style="font-size:28px">더헌터스 자산운용팀</h2>
+  <p class="note">자산운용팀은 심화된 투자 공부 및 실전 투자를 진행하는 팀입니다. 4월 16일 새로 신설되어 약 5개월간 누적수익률 40%를 달성했습니다.</p>
+  <h3 style="font-size:20px">-12.8%에서 +40%까지, 5개월의 기록</h3>
+  <div style="display:flex;flex-direction:column;gap:8px;flex:1">
+    <div style="display:flex;gap:10px;align-items:stretch">
+      <div style="width:44px;text-align:center"><h3>4월</h3><div style="width:1.5px;height:100%;background:#333;margin:0 auto"></div></div>
+      <div class="box" style="flex:1;padding:8px;display:flex;gap:8px;align-items:center">
+        <div style="flex:1"><p class="note" style="font-weight:700">매수 종목</p>
+        <svg width="100%" height="62" viewBox="0 -12 160 80" preserveAspectRatio="none" style="margin-top:4px">
+          <line x1="0" y1="30" x2="160" y2="30" stroke="#ddd" stroke-width="1"></line>
+          <rect x="43" y="30" width="14" height="4.8" fill="#2a5db0"></rect>
+          <rect x="103" y="30" width="14" height="3.5" fill="#2a5db0"></rect>
+          <g font-size="7.5" font-weight="700" fill="#555" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="50" y="26">-2.2%</text><text x="110" y="26">-1.6%</text>
+            <g font-size="6" fill="#666"><text x="50" y="58">KODEX 인버스</text><text x="110" y="58">SGC에너지</text></g>
+          </g>
+          <g font-size="7" fill="#999" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="50" y="66">4.21</text><text x="110" y="66">4.27</text>
+          </g>
+        </svg></div>
+        <div style="width:78px;text-align:center"><p class="note" style="font-size:10px">4월 누적</p><h3 class="dn" style="font-size:16px">-3.8%</h3></div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:stretch">
+      <div style="width:44px;text-align:center"><h3>5월</h3><div style="width:1.5px;height:100%;background:#333;margin:0 auto"></div></div>
+      <div class="box" style="flex:1;padding:8px;display:flex;gap:8px;align-items:center">
+        <div style="flex:1"><p class="note" style="font-weight:700">매수 종목</p>
+        <svg width="100%" height="62" viewBox="0 -12 160 80" preserveAspectRatio="none" style="margin-top:4px">
+          <line x1="0" y1="30" x2="160" y2="30" stroke="#ddd" stroke-width="1"></line>
+          <rect x="7" y="30" width="14" height="10.1" fill="#2a5db0"></rect>
+          <rect x="34" y="30" width="14" height="20.9" fill="#2a5db0"></rect>
+          <rect x="61" y="-5" width="14" height="35" fill="#c0392b"></rect>
+          <rect x="88" y="25.8" width="14" height="4.2" fill="#c0392b"></rect>
+          <rect x="115" y="30" width="14" height="17.8" fill="#2a5db0"></rect>
+          <rect x="142" y="18.8" width="14" height="11.2" fill="#c0392b"></rect>
+          <g font-size="7.5" font-weight="700" fill="#555" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="14" y="26">-4.6%</text><text x="41" y="26">-9.5%</text><text x="68" y="-7.5">+15.9%</text><text x="95" y="22.8">+1.9%</text><text x="122" y="26">-8.1%</text><text x="149" y="15.8">+5.1%</text>
+            <g font-size="6" fill="#666">
+              <text x="14" y="58" font-size="5">이오테크닉스</text><text x="41" y="58" font-size="5.5">인버스</text><text x="68" y="58" font-size="5.5">SK하이닉스</text><text x="95" y="58" font-size="5.5">인버스</text><text x="122" y="58" font-size="5.5">인버스</text><text x="149" y="58" font-size="5.5">삼성전자</text>
+            </g>
+          </g>
+          <g font-size="7" fill="#999" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="14" y="66">5.4</text><text x="41" y="66">5.7</text><text x="68" y="66">5.11</text><text x="95" y="66">5.15</text><text x="122" y="66">5.26</text><text x="149" y="66">5.29</text>
+          </g>
+        </svg></div>
+        <div style="width:78px;text-align:center"><p class="note" style="font-size:10px">5월 누적</p><h3 class="dn" style="font-size:16px">-3.1%</h3></div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:stretch">
+      <div style="width:44px;text-align:center"><h3 class="dn">6월</h3><div style="width:1.5px;height:100%;background:#333;margin:0 auto"></div></div>
+      <div class="box" style="flex:1;padding:8px;display:flex;gap:8px;align-items:center;background:#f4f6fb">
+        <div style="flex:1"><p class="note" style="font-weight:700">매수 종목</p>
+        <svg width="100%" height="62" viewBox="0 -12 160 80" preserveAspectRatio="none" style="margin-top:4px">
+          <line x1="0" y1="30" x2="160" y2="30" stroke="#ddd" stroke-width="1"></line>
+          <rect x="13" y="30" width="14" height="9.2" fill="#2a5db0"></rect>
+          <rect x="53" y="22.3" width="14" height="7.7" fill="#c0392b"></rect>
+          <rect x="93" y="30" width="14" height="19.1" fill="#2a5db0"></rect>
+          <rect x="133" y="30" width="14" height="0.7" fill="#2a5db0"></rect>
+          <g font-size="7.5" font-weight="700" fill="#555" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="20" y="26">-4.2%</text><text x="60" y="19.8">+3.5%</text><text x="100" y="26">-8.7%</text><text x="140" y="26">-0.3%</text>
+            <g font-size="6" fill="#666">
+              <text x="20" y="58">삼성전자</text><text x="60" y="58">인버스</text><text x="100" y="58">인버스</text><text x="140" y="58">삼성전자</text>
+            </g>
+          </g>
+          <g font-size="7" fill="#999" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="20" y="66">6.9</text><text x="60" y="66">6.10</text><text x="100" y="66">6.12</text><text x="140" y="66">6.30</text>
+          </g>
+        </svg></div>
+        <div style="width:78px;text-align:center"><p class="note" style="font-size:10px">6월 누적</p><h3 class="dn" style="font-size:16px">-12.8%</h3></div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:stretch">
+      <div style="width:44px;text-align:center"><h3 class="up">7월</h3><div style="width:1.5px;height:100%;background:#333;margin:0 auto"></div></div>
+      <div class="box" style="flex:1;padding:8px;display:flex;gap:8px;align-items:center;border-width:2.5px">
+        <div style="flex:1"><p class="note" style="font-weight:700">매수 종목</p>
+        <svg width="100%" height="62" viewBox="0 -12 160 80" preserveAspectRatio="none" style="margin-top:4px">
+          <line x1="0" y1="30" x2="160" y2="30" stroke="#ddd" stroke-width="1"></line>
+          <rect x="9" y="6.2" width="14" height="23.8" fill="#c0392b"></rect>
+          <rect x="41" y="15.5" width="14" height="14.5" fill="#c0392b"></rect>
+          <rect x="73" y="4.5" width="14" height="25.5" fill="#c0392b"></rect>
+          <rect x="105" y="20.5" width="14" height="9.5" fill="#c0392b"></rect>
+          <rect x="137" y="30" width="14" height="1.8" fill="#2a5db0"></rect>
+          <g font-size="7.5" font-weight="700" fill="#555" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="16" y="3.7">+10.8%</text><text x="48" y="13">+6.6%</text><text x="80" y="2">+11.6%</text><text x="112" y="18">+4.33%</text><text x="144" y="26">-0.8%</text>
+            <g font-size="6" fill="#666">
+              <text x="16" y="58">인버스</text><text x="48" y="58">인버스</text><text x="80" y="58">인버스</text><text x="112" y="58">삼성전자</text><text x="144" y="58">삼성전자</text>
+            </g>
+          </g>
+          <g font-size="7" fill="#999" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="16" y="66">7.7</text><text x="48" y="66">7.13</text><text x="80" y="66">7.28</text><text x="112" y="66">7.29</text><text x="144" y="66">7.30</text>
+          </g>
+        </svg></div>
+        <div style="width:78px;text-align:center"><p class="note" style="font-size:10px">7월 누적</p><h3 class="up" style="font-size:16px">+19.7%</h3></div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:stretch">
+      <div style="width:44px;text-align:center"><h3 class="up">8월</h3><div style="width:1.5px;height:100%;background:#333;margin:0 auto"></div></div>
+      <div class="box" style="flex:1;padding:8px;display:flex;gap:8px;align-items:center">
+        <div style="flex:1"><p class="note" style="font-weight:700">매수 종목</p>
+        <svg width="100%" height="62" viewBox="0 -12 160 80" preserveAspectRatio="none" style="margin-top:4px">
+          <line x1="0" y1="30" x2="160" y2="30" stroke="#ddd" stroke-width="1"></line>
+          <rect x="73" y="8.4" width="14" height="21.6" fill="#c0392b"></rect>
+          <g font-size="7.5" font-weight="700" fill="#555" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="80" y="5.4">+9.8%</text>
+            <g font-size="6" fill="#666"><text x="80" y="58">삼성전자</text></g>
+          </g>
+          <g font-size="7" fill="#999" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="80" y="66">8.12</text>
+          </g>
+        </svg></div>
+        <div style="width:78px;text-align:center"><p class="note" style="font-size:10px">8월 누적</p><h3 class="up" style="font-size:16px">+30%</h3></div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:stretch">
+      <div style="width:44px;text-align:center"><h3 class="up">9월</h3><div style="width:1.5px;height:100%;background:#333;margin:0 auto"></div></div>
+      <div class="box" style="flex:1;padding:8px;display:flex;gap:8px;align-items:center">
+        <div style="flex:1"><p class="note" style="font-weight:700">매수 종목</p>
+        <svg width="100%" height="62" viewBox="0 -12 160 80" preserveAspectRatio="none" style="margin-top:4px">
+          <line x1="0" y1="30" x2="160" y2="30" stroke="#ddd" stroke-width="1"></line>
+          <rect x="13" y="30" width="14" height="2.6" fill="#2a5db0"></rect>
+          <rect x="53" y="30" width="14" height="0.6" fill="#2a5db0"></rect>
+          <rect x="93" y="3.4" width="14" height="26.6" fill="#c0392b"></rect>
+          <rect x="133" y="25.2" width="14" height="4.8" fill="#c0392b"></rect>
+          <g font-size="7.5" font-weight="700" fill="#555" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="20" y="26">-1.19%</text><text x="60" y="26">-0.2%</text><text x="100" y="0.4">+12.1%</text><text x="140" y="22.2">+2.16%</text>
+            <g font-size="6" fill="#666">
+              <text x="20" y="58">삼성전자</text><text x="60" y="58">삼성전자</text><text x="100" y="58">삼성전자</text><text x="140" y="58">KODEX 인버스</text>
+            </g>
+          </g>
+          <g font-size="7" fill="#999" font-family="ui-monospace,monospace" text-anchor="middle">
+            <text x="20" y="66">9.9</text><text x="60" y="66">9.10</text><text x="100" y="66">9.27</text><text x="140" y="66">10.1</text>
+          </g>
+        </svg></div>
+        <div style="width:78px;text-align:center"><p class="note" style="font-size:10px">현재 누적</p><h3 class="up" style="font-size:16px">+40%</h3></div>
+      </div>
+    </div>
+  </div>
+  <p class="note" style="text-align:center;font-size:11.5px">변동성 높은 코스피 시장에서 마이너스를 기록한 적도 있었지만 누적수익률 30%라는 목표를 위해 계속 도전하였습니다.<br>끝까지 포기하지 않으면 반드시 결과는 따라옵니다.</p>
+</div></div>
+
+<div class="dv-opt" id="1c"><div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a>차트 히어로형 — 그래프가 곧 이야기</div>
+<div class="dv-card wf" style="width:420px;height:610px;padding:22px;gap:12px">
+  <div style="display:flex;align-items:center;gap:6px"><img src="uploads/pasted-1786768762873-0.png" style="width:36px;height:36px;object-fit:contain" alt="thehunters 로고"><span style="font-size:14px;font-weight:700;letter-spacing:.06em;color:#111;font-family:'HY견고딕','HYGothic-Extra','Black Han Sans',sans-serif">THEHUNTERS</span></div>
+  <h2 style="font-size:26px">더헌터스 자산운용팀</h2>
+  <p class="note">자산운용팀은 심화된 투자 공부 및 실전 투자를 진행하는 팀입니다. 4월 16일 새로 신설되어 약 4개월간 누적수익률 30%를 달성했습니다.</p>
+  <div class="box" style="flex:1;position:relative;padding:10px">
+    <span class="tag" style="position:absolute;top:6px;left:12px;font-size:12px">누적수익률</span>
+    <svg width="100%" height="100%" viewBox="0 0 380 322" preserveAspectRatio="none">
+      <line x1="0" y1="197" x2="380" y2="197" stroke="#ddd" stroke-width="1"></line>
+      <rect x="135" y="15" width="215" height="275" fill="#c0392b" opacity="0.06"></rect>
+      <polyline points="8,209 54,214 100,270 146,208 192,170 238,104 284,79 330,84 376,25" fill="none" stroke="#c0392b" stroke-width="3"></polyline>
+      <circle cx="8" cy="209" r="3.5" fill="#333"></circle><circle cx="54" cy="214" r="3.5" fill="#333"></circle><circle cx="100" cy="270" r="4" fill="#2a5db0"></circle><circle cx="146" cy="208" r="3.5" fill="#333"></circle><circle cx="192" cy="170" r="3.5" fill="#333"></circle><circle cx="238" cy="104" r="3.5" fill="#333"></circle><circle cx="284" cy="79" r="3.5" fill="#333"></circle><circle cx="330" cy="84" r="3.5" fill="#333"></circle><circle cx="376" cy="25" r="4" fill="#c0392b"></circle>
+      <g font-size="12" fill="#555" font-family="ui-monospace,monospace">
+        <text x="8" y="230" text-anchor="middle">-2.2%</text>
+        <text x="54" y="200" text-anchor="middle">-3.1%</text>
+        <text x="100" y="290" text-anchor="middle" fill="#2a5db0">-12.8%</text>
+        <text x="146" y="194" text-anchor="middle">-2%</text>
+        <text x="192" y="156" text-anchor="middle">+4.6%</text>
+        <text x="238" y="91" text-anchor="middle">+16.2%</text>
+        <text x="284" y="64" text-anchor="middle">+20.5%</text>
+        <text x="330" y="104" text-anchor="middle">+19.7%</text>
+        <text x="376" y="12" text-anchor="end" fill="#c0392b">+30%</text>
+      </g>
+      <line x1="0" y1="304" x2="380" y2="304" stroke="#ccc" stroke-width="1"></line>
+      <g font-size="10" fill="#999" font-family="ui-monospace,monospace">
+        <text x="8" y="318">4월</text>
+        <text x="54" y="318" text-anchor="middle">5월</text>
+        <text x="100" y="318" text-anchor="middle">6월</text>
+        <text x="146" y="318" text-anchor="middle">7.7</text>
+        <text x="192" y="318" text-anchor="middle">7.13</text>
+        <text x="238" y="318" text-anchor="middle">7.28</text>
+        <text x="284" y="318" text-anchor="middle">7.29</text>
+        <text x="330" y="318" text-anchor="middle">7.30</text>
+        <text x="374" y="318" text-anchor="end">8.16</text>
+      </g>
+    </svg>
+    <div class="box" style="position:absolute;left:38%;top:4%;padding:4px 8px;border-width:2px"><p class="note" style="font-size:12px">★ 7월 "경제위기" 판단 → -2%에서 +20.5%로</p></div>
+    
+  </div>
+  <div style="display:flex;gap:8px">
+    <div class="dash" style="flex:1;height:52px">월별 한 줄 캡션 4개 (4·5·6·7월)</div>
+  </div>
+  <div style="display:flex;gap:8px;align-items:center">
+    <div class="box" style="flex:1;padding:8px"><p class="note">"변동성은 위험이 아니라 기회였다" — 팀장 코멘트 1줄</p></div>
+    <div class="dash" style="width:110px;height:44px">지원 QR</div>
+  </div>
+</div></div>
+
+<div class="dv-opt" id="1d"><div class="dv-olabel"><a class="dv-oid" href="#1d">1d</a>신문 호외형 — 기사처럼 읽는 성과</div>
+<div class="dv-card wf" style="width:400px;height:590px;padding:22px;gap:10px">
+  <div style="text-align:center;border-bottom:2.5px solid #333;padding-bottom:6px">
+    <div style="display:flex;align-items:center;justify-content:space-between"><span style="display:flex;align-items:center;gap:6px"><img src="uploads/pasted-1786768762873-0.png" style="width:34px;height:34px;object-fit:contain" alt="thehunters 로고"><span style="font-size:14px;font-weight:700;letter-spacing:.06em;color:#111;font-family:'HY견고딕','HYGothic-Extra','Black Han Sans',sans-serif">THEHUNTERS</span></span><span class="tag">호외 · 2026.08.15</span></div>
+    <h2 style="font-size:30px;margin-top:2px">더헌터스 자산운용팀</h2>
+    <p class="note" style="margin-top:2px">심화된 투자 공부 및 실전 투자를 진행하는 팀. 4월 16일 신설, 약 4개월간 누적수익률 30% 달성</p>
+    <h3 style="font-size:20px;margin-top:4px">"위기를 샀다" — 4개월 만에 +30%</h3>
+  </div>
+  <div style="display:flex;gap:12px;flex:1">
+    <div style="flex:1.2;display:flex;flex-direction:column;gap:8px">
+      <p class="note">4월 16일, 코스피 변동성이 최고조인 시점에 국내주식 운용을 시작. 6월 30일 <span class="dn">-12.8%</span>까지…</p>
+      <div class="dash" style="height:70px">본문 기사 2문단<br>(반전 서사)</div>
+      <div class="box" style="padding:8px;border-width:2px;background:#fdf6f5"><p class="note"><b>인터뷰 박스</b> — "7월, 우리는 경제위기라고 판단했다. 그래서 샀다."</p></div>
+    </div>
+    <div style="flex:1;display:flex;flex-direction:column;gap:8px">
+      <div class="box" style="height:110px;position:relative;padding:6px">
+        <span class="tag">누적수익률</span>
+        <svg width="100%" height="80" viewBox="0 0 150 92" preserveAspectRatio="none" style="margin-top:4px">
+          <line x1="0" y1="53" x2="150" y2="53" stroke="#ddd" stroke-width="1"></line>
+          <polyline points="4,56 22,58 40,72 58,56 76,46 94,29 112,22 130,23 148,8" fill="none" stroke="#333" stroke-width="2"></polyline>
+          <circle cx="40" cy="72" r="2" fill="#2a5db0"></circle><circle cx="148" cy="8" r="2" fill="#333"></circle>
+          <g font-size="7" fill="#777" font-family="ui-monospace,monospace">
+            <text x="2" y="50">-2.2%</text>
+            <text x="30" y="80" fill="#2a5db0">-12.8%</text>
+            <text x="146" y="10" text-anchor="end">+30%</text>
+          </g>
+          <line x1="0" y1="83" x2="150" y2="83" stroke="#ddd" stroke-width="0.5"></line>
+          <g font-size="6.5" fill="#999" font-family="ui-monospace,monospace">
+            <text x="2" y="91">4월</text>
+            <text x="40" y="91" text-anchor="middle">6월</text>
+            <text x="148" y="91" text-anchor="end">8.16</text>
+          </g>
+        </svg>
+      </div>
+      <div class="box" style="padding:8px"><p class="note" style="font-size:12px">숫자 3개<br>기간 4개월 · 최대낙폭 -12.8% · 누적 +30%</p></div>
+      <div class="dash" style="flex:1">7월 반등 구간<br>+4.6 → +16.2 → +20.5<br>막대 미니차트</div>
+    </div>
+  </div>
+  <div style="border-top:1.5px solid #333;padding-top:8px;display:flex;justify-content:space-between;align-items:center">
+    <p class="note">신입 기자(부원) 모집 중 — 다음 호외의 주인공은 당신</p><div class="dash" style="width:64px;height:36px">QR</div>
+  </div>
+</div></div>
+
+</div>
+<p class="dv-next">Try next: "<a class="dv-oid" href="#1a">1a</a>의 큰 숫자와 <a class="dv-oid" href="#1c">1c</a>의 차트를 합쳐줘" · "<a class="dv-oid" href="#1d">1d</a>를 하이파이로 발전시켜줘" · "새로운 방향 더 보여줘"</p>
+</section>
+</x-dc>
+</body>
+</html>
