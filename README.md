@@ -84,3 +84,4 @@
 - `team2_poster.gif`, `team2_nov_bars.png` — 최신 결과물.
 - `team_records.xlsx` — 최신 엑셀.
 - `1A_team1_poster.png`, `1B_team2_poster.png` — 최종 화면 캡처.
+- `team2_trades_1116-1120.png` — 2팀 실제 매매내역(바이낸스 캡처 11.16~11.20) 모음.
