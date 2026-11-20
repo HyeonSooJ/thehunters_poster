@@ -84,5 +84,6 @@
 - `team2_poster.gif`, `team2_nov_bars.png` — 최신 결과물.
 - `team_records.xlsx` — 최신 엑셀.
 - `1A_team1_poster.png`, `1B_team2_poster.png` — 최종 화면 캡처.
+- `team1_bars.png`, `team2_nov_bars.png` — 1팀 전체 · 2팀 11월 매매내역 막대그래프 (엑셀 시트에 붙은 이미지와 동일).
 - `team2_trades_nov.png` — 2팀 11월 매매기록표(엑셀 기준 18건). 누적 수익률·수익금은 11월 한 달 기준.
 - `team2_trades_oct.png` — 2팀 10월 매매기록표(10.03~10.30, 32건). 누적 수익률·수익금은 10.03~10.30 전체 기준.
