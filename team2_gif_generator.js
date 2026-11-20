@@ -67,7 +67,7 @@ function draw(st){
   if(seg<NP&&sp>0){const a=seg,b=seg+1;x.lineTo(px(a)+(px(b)-px(a))*sp,py(vals[a]+(vals[b]-vals[a])*sp));}
   x.stroke();
   for(let i=0;i<=seg;i++){x.fillStyle=i===NP?CH:'#fff';x.beginPath();x.arc(px(i),py(vals[i]),i===NP||i<=1?3:2.4,0,7);x.fill();
-    if(i===0)continue;const lbl='+'+(i===NP?vals[i].toFixed(2):vals[i].toFixed(1))+'%';
+    if(i===0||dy[i]===null)continue;const lbl='+'+(i===NP?vals[i].toFixed(2):vals[i].toFixed(1))+'%';
     if(i===NP){font(11,true);x.fillStyle=CH;x.textAlign='right';x.fillText(lbl,px(i)+6,py(vals[i])+dy[i]);}
     else if(i===1){font(7.5,true);x.fillStyle='#fff';x.textAlign='left';x.fillText(lbl,px(i)+5,py(vals[i])+10);}
     else{font(5.8,false);x.fillStyle='#bbb';x.textAlign='center';x.fillText(lbl,px(i),py(vals[i])+dy[i]);}}
